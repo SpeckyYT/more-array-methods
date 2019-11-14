@@ -1,4 +1,4 @@
-#More Array Methods!
+# More Array Methods!
 
 Have you ever been fed up over the fact that arrays have way less methods than they probably should?
 
@@ -6,7 +6,7 @@ No?
 
 Whatever. Point is, I put together a handly little module with a bunch of extra methods for arrays, made to shave precious seconds off your afternoon of coding and self loathing. Consider it DLC for JavaScript
 
-##Setting things up
+## Setting things up
 To use these methods, simply require `more-array-methods` at the top of your code and run it as a function
 
 ```
@@ -16,11 +16,11 @@ makeArraysLessTerrible();
 //congratulations! you just made arrays less terrible!
 ```
 
-##Methods
+## Methods
 Here are all the things that you can do with More Array Methods. Most methods are pretty basic and took like two minutes to code, but in the end it's still pretty helpful to have them all in one big module.
 
-Method | Description
--|-|-
+| Method | Description |
+| --- | --- |
 .insert(item, index) | Inserts something at the specified index. If index is left blank, it's pushed to the end of the array
 .delete(index) | Deletes the item at the specified index, leaving nothing behind
 .remove(match, strict) | Deletes the first item in the array to match the `match` parameter. Set `strict` to true to match with `===` instead of `==`
