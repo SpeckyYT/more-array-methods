@@ -1,0 +1,25 @@
+{
+  "name": "more-array-methods",
+  "version": "1.0.2",
+  "description": "More array methods!",
+  "main": "arr.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "array",
+    "arrays",
+    "array-methods",
+    "array-prototype"
+  ],
+  "author": "GDColon",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GDColon/more-array-methods.git"
+  },
+  "bugs": {
+    "url": "https://github.com/GDColon/more-array-methods/issues"
+  },
+  "homepage": "https://github.com/GDColon/more-array-methods#readme"
+}
