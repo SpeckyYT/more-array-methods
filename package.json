@@ -2,7 +2,7 @@
   "name": "more-array-methods",
   "version": "1.0.6",
   "description": "More array methods!",
-  "main": "arr.js",
+  "main": "index.js",
   "scripts": {
     "test": "mocha library.test.js"
   },
