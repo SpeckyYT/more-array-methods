@@ -1,3 +1,4 @@
+﻿
 # More Array Methods!
 
 Have you ever been fed up over the fact that arrays have way less methods than they probably should?
@@ -28,7 +29,7 @@ Here are all the things that you can do with More Array Methods. Most methods ar
 .last() | Returns the last item in the array
 .pick() | Returns a random item from the array
 .shuffle() | Shuffles the array, completely randomly
-.locate(function) | Identical to the built-in `.find()`, but it returns an object with both the found item and it's index. You're welcome.
+.locate(function) | Identical to the built-in `.find()`, but it returns an object with both the found item and it's index. You can also enter a string/number as the parameter and it will attempt to find a match
 .toLowerCase() | Converts all strings to lowercase
 .toUpperCase() | Converts all strings to uppercase
 .stringify() | Converts all numbers in the array to strings
@@ -43,5 +44,7 @@ Here are all the things that you can do with More Array Methods. Most methods ar
 .group() | Returns an object with the number of times each element appears in the array
 .clean() | Deletes all null/undefined/empty/etc items
 .h() | Changes all array elements to "h"
+
+
 
 Hope this helps! <3

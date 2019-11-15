@@ -111,6 +111,7 @@ module.exports = function() {
     };
 
     Array.prototype.locate = function(func) {
+        if (!func || typeof func == "object") func = ""
         if (typeof func == "string" || typeof func == "number") return {value: this.find(x => x == func), index: this.findIndex(x => x == func)}
         else return {value: this.find(func), index: this.findIndex(func)}
     }
