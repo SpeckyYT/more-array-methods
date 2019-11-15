@@ -10,13 +10,13 @@ module.exports = function() {
     };
 
     Array.prototype.remove = function(i, strict) {
-        let index = strict ? this.findIndex(x => x === i) : this.findIndex(x => x === i);
+        let index = strict ? this.findIndex(x => x === i) : this.findIndex(x => x == i);
         return this.delete(index);
     };
 
     Array.prototype.purge = function(i, strict) {
         if (strict) return this.filter(x => x !== i);
-        else return this.filter(x => x !== i);
+        else return this.filter(x => x != i);
     };
 
     Array.prototype.ascend = function() {
@@ -101,7 +101,7 @@ module.exports = function() {
         let unshuffled = this;
         let shuffled = [];
 
-        while (shuffled.length != length) {
+        while (shuffled.length !== length) {
             let index = Math.floor(Math.random() * unshuffled.length);
             shuffled.push(unshuffled[index]);
             unshuffled = unshuffled.delete(index);
