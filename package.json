@@ -10,7 +10,8 @@
     "array",
     "arrays",
     "array-methods",
-    "array-prototype"
+    "array-prototype",
+    "polyfill"
   ],
   "author": "GDColon",
   "license": "MIT",
