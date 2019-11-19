@@ -5,7 +5,7 @@ module.exports = function() {
     };
 
     Array.prototype.delete = function(i) {
-        if (!this[i] || isNaN(i)) return this;
+        if ((!this[i] && this[i] !== 0) || isNaN(i)) return this
         else return this.filter((x, y) => y !== (+i));
     };
 
