@@ -3,6 +3,7 @@
   "version": "1.1.2",
   "description": "More array methods!",
   "main": "index.js",
+  "typings": "index.d.ts",
   "scripts": {
     "test": "mocha library.test.js"
   },
