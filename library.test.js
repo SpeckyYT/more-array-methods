@@ -190,5 +190,12 @@ describe('More Array Methods', function () {
         });
       });
     });
+
+    describe('#tail', function(){
+      const array = [1,2,3];
+      it('should return the array without the first item', function(){
+        return expect(array.tail()).to.eql([2,3]);
+      });
+    });
   });
 });

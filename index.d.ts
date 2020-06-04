@@ -44,6 +44,8 @@ declare global {
         shuffle(): T[];
         /** Identical to the built-in `.find()`, but it returns an object with both the found item and it's index. You can also enter a string/number as the parameter and it will attempt to find a match. */
         locate(func: any): { value: T; index: number };
+        /** Returns the array without the first item */
+        tail(): T[];
     }
 }
 

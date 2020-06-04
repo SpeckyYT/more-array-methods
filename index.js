@@ -121,4 +121,8 @@ module.exports = function() {
         };
     };
 
+    Array.prototype.tail = function(){
+        return this.splice(1);
+    };
+
 };
